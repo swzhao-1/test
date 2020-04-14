@@ -1,0 +1,51 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay", //自动保存
+    "git.autofetch": true,
+    "eslint.autoFixOnSave": true, //  启用保存时自动修复,默认只支持.js文件
+    "eslint.validate": [
+        "javascript", //  用eslint的规则检测js文件
+        {
+            "language": "vue", // 检测vue文件
+            "autoFix": true //  为vue文件开启保存自动修复的功能
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+    ],
+    "workbench.editor.showTabs": true,
+    // "workbench.colorTheme": "Palenight Theme",
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "window.zoomLevel": 0,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "eslint.alwaysShowStatus": true,
+    "vetur.validation.template": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-great-icons",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.options": {
+    
+    },
+    "eslint.codeAction.disableRuleComment": {
+        
+    
+    
+    },
+    "eslint.codeAction.showDocumentation": {
+    
+    }
+}
