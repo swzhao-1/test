@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import indexPage from './src/components/header.vue'
+// import indexPage from './src/components/header.vue'
 import homePage from './src/views/home.vue'
 import aboutPage from './src/views/about.vue'
  

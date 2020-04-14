@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <header-tab></header-tab>
+        <!-- <header-tab></header-tab> -->
         <h2>{{msg}}</h2>
         <div class="nav-box">
             <p class="nav-list">
@@ -15,7 +15,7 @@
 </template>
  
 <script>
-import HeaderTab from '../src/components/header.vue';
+// import HeaderTab from '../src/components/header.vue';
 export default {
   name: 'app',
   data () {
@@ -24,7 +24,7 @@ export default {
     }
   },
   components:{
-    HeaderTab
+    // HeaderTab
   }
 }
 </script>

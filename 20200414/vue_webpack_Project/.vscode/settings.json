@@ -47,5 +47,6 @@
     },
     "eslint.codeAction.showDocumentation": {
     
-    }
+    },
+    "git.ignoreLimitWarning": true
 }
