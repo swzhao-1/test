@@ -68,7 +68,7 @@
   function refreshRem() {
     var width = docEl.getBoundingClientRect().width
     if (width / dpr > 540) {
-      width = 540 * dpr
+      width = 750 * dpr
     }
     var rem = width / 10
     docEl.style.fontSize = rem + 'px'
