@@ -15,7 +15,7 @@ body {
   background-color: #f2f2f2;
   line-height: 1.5;
   font-family: -apple-system, Helvetica, sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .header {
   position: fixed;
@@ -90,30 +90,51 @@ body {
   height: 0.346667rem;
   margin: 0 0.266667rem 0 0.84rem;
 }
-.header .headerNav {
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 10rem;
+  height: 0.933333rem;
+  display: flex;
+}
+.footer img {
+  width: 4.973333rem;
+  height: 100%;
+}
+.footer div {
+  width: 5.026667rem;
+  text-align: center;
+  height: 0.933333rem;
+  line-height: 0.933333rem;
+  background-color: #ff6347;
+  color: #fff;
+  font-size: 0.48rem;
+  font-weight: 600;
+}
+.headerNav {
   height: 0.76rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: 1px solid #ccc;
 }
-.header .headerNav a {
+.headerNav a {
   text-decoration: none;
   flex: 1;
   text-align: center;
   font-size: 0.346667rem;
   color: #4e555d;
 }
-.header .headerNav a:active {
+.headerNav a:nth-child(1) {
   color: #f01515;
 }
 .content {
   position: fixed;
-  width: 100%;
+  width: 10rem;
   top: 3.466667rem;
   bottom: 0.933333rem;
-  background-color: #f4f5f7;
+  background-color: #fff;
   overflow: hidden;
+  border-top: 1px solid #e1e2e3;
 }
 .content .contentLeft {
   float: left;
@@ -151,6 +172,7 @@ body {
   display: flex;
   align-items: center;
   background-color: #fff;
+  border-bottom: 1px solid #d9dde1;
 }
 .content .contentRight .lesson .lessonItem .itemLeft {
   margin-left: 0.266667rem;
@@ -184,27 +206,6 @@ body {
   color: #fcfdff;
   font-size: 0.24rem;
 }
-.content .contentRight .lesson .lessonItem:nth-child(n+1) {
-  border-bottom: 1px solid #d9dde1;
-}
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 10rem;
-  height: 0.933333rem;
-  display: flex;
-}
-.footer img {
-  width: 4.973333rem;
-  height: 100%;
-}
-.footer div {
-  width: 5.026667rem;
-  text-align: center;
-  height: 0.933333rem;
-  line-height: 0.933333rem;
-  background-color: #ff6347;
-  color: #fff;
-  font-size: 0.48rem;
-  font-weight: 600;
+.content .contentRight .lesson .lessonItem:nth-child(1) {
+  border: none;
 }

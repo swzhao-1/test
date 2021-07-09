@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px;
+  }
+}
+body {
+  margin: 0 auto;
+  max-width: 750px;
+  min-width: 375px;
+  width: 10rem !important;
+  background-color: #f2f2f2;
+  line-height: 1.5;
+  font-family: -apple-system, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10rem;
+  height: 3.466667rem;
+}
+.header .logo {
+  background-color: #ababab;
+  display: flex;
+  height: 2.173333rem;
+}
+.header .logo .logoImg {
+  width: 2.4rem;
+  height: 1.306667rem;
+  margin: 0.533333rem 0.4rem 0.4rem 0.533333rem;
+}
+.header .logo .logoImg img {
+  width: 100%;
+}
+.header .logo .logoText {
+  margin: 0.4rem 0.4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.header .logo .logoText p {
+  display: flex;
+  align-items: center;
+}
+.header .logo .logoText p img {
+  width: 0.56rem;
+  height: 0.4rem;
+  padding-right: 0.066667rem;
+}
+.header .logo .logoText p span {
+  color: #fff;
+  font-size: 0.32rem;
+  text-shadow: 0 0 0.066667rem #000;
+}
+.header .logo .logoText p:nth-child(1) span {
+  font-size: 0.373333rem;
+}
+.header .logo .logoText p:nth-child(3) img {
+  width: 0.24rem;
+  height: 0.24rem;
+}
+.header .notice {
+  background-color: #bebebe;
+  height: 0.533333rem;
+  display: flex;
+  align-items: center;
+}
+.header .notice span {
+  color: #fff;
+  font-size: 0.32rem;
+  text-shadow: 0 0 0.066667rem #000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header .notice img {
+  width: 0.106667rem;
+  height: 0.106667rem;
+  margin-left: 0.2rem;
+  margin-right: 0.893333rem;
+}
+.header .notice img:nth-child(1) {
+  width: 0.533333rem;
+  height: 0.346667rem;
+  margin: 0 0.266667rem 0 0.84rem;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 10rem;
+  height: 0.933333rem;
+  display: flex;
+}
+.footer img {
+  width: 4.973333rem;
+  height: 100%;
+}
+.footer div {
+  width: 5.026667rem;
+  text-align: center;
+  height: 0.933333rem;
+  line-height: 0.933333rem;
+  background-color: #ff6347;
+  color: #fff;
+  font-size: 0.48rem;
+  font-weight: 600;
+}
